@@ -11,7 +11,7 @@ app.get('/test', function (req, res) {
   res.end('test succesfull')
 })
 
-app.listen(9000, function () {
+app.listen(80, function () {
   console.log('listening on port 9090')
 }).on('connect', function (req) {
   console.log('connected succesfully!')
