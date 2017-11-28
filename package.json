@@ -1,0 +1,23 @@
+{
+  "name": "aws-deployment",
+  "version": "1.0.0",
+  "description": "test app for learning aws deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sai1919/awsDeployment.git"
+  },
+  "author": "Sai Teja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sai1919/awsDeployment/issues"
+  },
+  "homepage": "https://github.com/Sai1919/awsDeployment#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
